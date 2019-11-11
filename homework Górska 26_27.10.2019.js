@@ -15,7 +15,7 @@
 //             return (typeof value === undefined || value === "") ? "Value is undefined or it is empty" : value;
 //         },
 //         reverseValue() {
-//             value = (typeof value === "string") ? value.split("").reverse().join("") : value*(-1);
+//             return value = (typeof value === "string") ? value.split("").reverse().join("") : value*(-1);
 //         }
 //     }
 // })();
